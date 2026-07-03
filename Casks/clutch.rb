@@ -9,8 +9,8 @@
 # Bump version + sha256 on each release (see docs/PACKAGE_MANAGERS.md).
 
 cask "clutch" do
-  version "1.0.3"
-  sha256 "d5509f974d38f5c33333c6e13d2f271adf2a0cf9d5a5ae76739e99960b01458b"
+  version "1.1.1"
+  sha256 "70440874765b6ad33ddba2cbe516e880690c74fef4acc456bc964772110c7eaf"
 
   url "https://github.com/fancy1108/Clutch/releases/download/v#{version}/Clutch_#{version}_aarch64.dmg"
   name "Clutch"
