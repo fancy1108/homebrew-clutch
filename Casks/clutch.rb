@@ -17,7 +17,7 @@ cask "clutch" do
   desc "Local AI multi-agent orchestration and supervision desktop app"
   homepage "https://github.com/fancy1108/Clutch"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
   depends_on arch: :arm64
 
   app "Clutch.app"
